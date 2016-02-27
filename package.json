@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-exponent",
+  "version": "1.0.0",
+  "description": "Shared ESLint configs for Exponent",
+  "main": "eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentjs/eslint-config-exponent.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "exponent"
+  ],
+  "author": "James Ide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exponentjs/eslint-config-exponent/issues"
+  },
+  "homepage": "https://github.com/exponentjs/eslint-config-exponent#readme"
+}
