@@ -20,6 +20,6 @@
   "peerDependencies": {
     "babel-eslint": "^5.0.0",
     "eslint": "^2.3.0",
-    "eslint-plugin-react": "^4.3.0"
+    "eslint-plugin-react": "^4.2.1"
   }
 }
