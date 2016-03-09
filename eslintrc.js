@@ -166,7 +166,7 @@ module.exports = {
     'prefer-const': 0,
     'prefer-spread': 1,
     'quote-props': 0,
-    'quotes': [1, 'single', 'avoid-escape'],
+    'quotes': [0, 'single', 'avoid-escape'],
     'radix': 1,
     'require-yield': 0,
     'semi': 1,
