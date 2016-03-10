@@ -26,7 +26,7 @@ module.exports = {
       nonEmpty: 'after-props',
       selfClosing: 'tag-aligned',
     }],
-    'react/jsx-curly-spacing': [1, 'always'],
+    'react/jsx-curly-spacing': [1, 'never'],
     'react/jsx-equals-spacing': [1, 'never'],
     'react/jsx-handler-names': 0,
     'react/jsx-indent-props': [1, 2],
