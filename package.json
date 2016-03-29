@@ -19,7 +19,6 @@
   "homepage": "https://github.com/exponentjs/eslint-config-exponent#readme",
   "peerDependencies": {
     "babel-eslint": "*",
-    "eslint": "^2.4.0",
-    "eslint-plugin-react": "^4.2.1"
+    "eslint": "^2.4.0"
   }
 }
