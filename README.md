@@ -10,7 +10,7 @@ npm install eslint-config-exponent --save-dev
 You will also need to install `eslint`, `babel-eslint`, and `eslint-plugin-react` (if you want to lint React and JSX):
 
 ```sh
-npm install eslint@2.2.x babel-eslint eslint-plugin-react --save-dev
+npm install eslint babel-eslint eslint-plugin-react --save-dev
 ```
 
 ## Usage
