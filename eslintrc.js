@@ -185,6 +185,6 @@ module.exports = {
     'vars-on-top': 0,
     'wrap-iife': 0,
     'wrap-regex': 0,
-    'yoda': [1, 'never', { exceptRange: false }],
+    'yoda': [1, 'never', { exceptRange: true }],
   }
 };
