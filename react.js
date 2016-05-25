@@ -13,6 +13,9 @@ module.exports = {
     FormData: false,
     fetch: false,
     requestAnimationFrame: false,
+    cancelAnimationFrame: false,
+    requestIdleCallback: false,
+    cancelIdleCallback: false,
   },
 
   plugins: [
