@@ -106,7 +106,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-unneeded-ternary': 1,
     'no-unreachable': 1,
-    'no-unused-expressions': 1,
+    'no-unused-expressions': 0,
     'no-unused-vars': [1, { vars: 'all', args: 'none' }],
     'no-use-before-define': 0,
     'no-useless-call': 0,

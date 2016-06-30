@@ -23,7 +23,7 @@ module.exports = {
   ],
 
   rules: {
-    'react/display-name': [1, { ignoreTranspilerName: false }],
+    'react/display-name': [0, { ignoreTranspilerName: false }],
     'react/jsx-boolean-value': [1, 'never'],
     'react/jsx-closing-bracket-location': [1, {
       nonEmpty: 'after-props',
