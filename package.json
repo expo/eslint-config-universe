@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-exponent",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Shared ESLint configs for Exponent",
   "main": "eslintrc.js",
   "repository": {
@@ -10,6 +10,11 @@
   "keywords": [
     "eslint-config",
     "exponent"
+  ],
+  "files": [
+    "README.md",
+    "eslintrc.js",
+    "react.js"
   ],
   "author": "James Ide",
   "license": "MIT",
