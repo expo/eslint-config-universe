@@ -177,7 +177,7 @@ module.exports = {
     'max-nested-callbacks': [0, 2],
     'max-params': [0, 3],
     'max-statements': [0, 10],
-    'max-statements-per-line': [0, 1],
+    'max-statements-per-line': [0, { max: 1 }],
     'new-cap': 0,
     'new-parens': 1,
     'newline-after-var': 0,
@@ -223,7 +223,7 @@ module.exports = {
     'wrap-iife': 0,
     'wrap-regex': 0,
     'yield-star-spacing': [1, 'after'],
-    'yoda': [1, 'never', { exceptRange: false }],
+    'yoda': [1, 'never', { exceptRange: true }],
 
     'babel/array-bracket-spacing': [1, 'never'],
     'babel/arrow-parens': 0,
