@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-exponent",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Shared ESLint configs for Exponent",
   "main": "eslintrc.js",
   "repository": {
