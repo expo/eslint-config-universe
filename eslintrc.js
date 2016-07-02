@@ -233,6 +233,6 @@ module.exports = {
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
     'babel/object-shorthand': 1,
     'babel/flow-object-type': [1, 'comma'],
-    'babel/func-params-comma-dangle': [1, 'always-multiline'],
+    'babel/func-params-comma-dangle': [0, 'always-multiline'],
   },
 };
