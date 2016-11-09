@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-exponent",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Shared ESLint configs for Exponent",
   "main": "eslintrc.js",
   "repository": {
@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/exponentjs/eslint-config-exponent#readme",
   "peerDependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.6.1",
-    "eslint-plugin-babel": "^3.3.0"
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0"
   }
 }

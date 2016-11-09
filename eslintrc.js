@@ -2,7 +2,7 @@ module.exports = {
   parser: 'babel-eslint',
 
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
       impliedStrict: true,
@@ -124,6 +124,7 @@ module.exports = {
     'no-use-before-define': 0,
     'no-useless-call': 0,
     'no-useless-computed-key': 1,
+    'no-useless-concat': 1,
     'no-useless-constructor': 1,
     'no-useless-rename': 1,
     'no-void': 1,
@@ -196,7 +197,7 @@ module.exports = {
     'prefer-reflect': 0,
     'prefer-rest-params': 1,
     'prefer-spread': 1,
-    'prefer-template': 1,
+    'prefer-template': 0,
     'quote-props': 0,
     'quotes': [0, 'single', 'avoid-escape'],
     'radix': 1,
@@ -230,9 +231,15 @@ module.exports = {
     'babel/generator-star-spacing': [1, 'after'],
     'babel/new-cap': 0,
     'babel/no-await-in-loop': 0,
+    'babel/no-invalid-this': 1,
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
     'babel/object-shorthand': 1,
     'babel/flow-object-type': [1, 'comma'],
     'babel/func-params-comma-dangle': [0, 'always-multiline'],
+
+    'import/order': [1, {
+      groups: [['builtin', 'external'], 'internal', 'index', 'sibling', 'parent'],
+      'newlines-between': 'ignore',
+    }],
   },
 };

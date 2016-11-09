@@ -4,13 +4,13 @@ Shared ESLint configs for Exponent's JS.
 ## Installation
 
 ```sh
-npm install eslint-config-exponent --save-dev
+yarn add --dev eslint-config-exponent
 ```
 
-You will also need to install `eslint`, `babel-eslint`, and `eslint-plugin-react` (if you want to lint React and JSX):
+You will also need to install `eslint`, `babel-eslint`, `eslint-plugin-babel`, `eslint-plugin-import`, and `eslint-plugin-react` (if you want to lint React and JSX):
 
 ```sh
-npm install eslint babel-eslint eslint-plugin-react --save-dev
+yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-react
 ```
 
 ## Usage
