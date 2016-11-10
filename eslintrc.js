@@ -17,6 +17,7 @@ module.exports = {
 
   plugins: [
     'babel',
+    'import',
   ],
 
   rules: {
@@ -231,7 +232,6 @@ module.exports = {
     'babel/generator-star-spacing': [1, 'after'],
     'babel/new-cap': 0,
     'babel/no-await-in-loop': 0,
-    'babel/no-invalid-this': 1,
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
     'babel/object-shorthand': 1,
     'babel/flow-object-type': [1, 'comma'],
