@@ -17,6 +17,7 @@ module.exports = {
 
   plugins: [
     'babel',
+    'flowtype',
     'import',
   ],
 
@@ -60,6 +61,7 @@ module.exports = {
     'no-inline-comments': 0,
     'no-inner-declarations': [0, 'functions'],
     'no-invalid-regexp': 2,
+    'no-invalid-this': 0,
     'no-irregular-whitespace': 1,
     'no-iterator': 1,
     'no-label-var': 1,
@@ -230,7 +232,7 @@ module.exports = {
 
     'babel/new-cap': 0,
     'babel/no-await-in-loop': 0,
-    'babel/no-invalid-this': 1,
+    'babel/no-invalid-this': 0,
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
 
     'flowtype/object-type-delimiter': [1, 'comma'],
