@@ -100,6 +100,7 @@ module.exports = {
     'no-restricted-modules': 0,
     'no-restricted-syntax': 0,
     'no-return-assign': 1,
+    'no-return-await': 0,
     'no-script-url': 1,
     'no-self-compare': 1,
     'no-sequences': 1,
@@ -134,7 +135,7 @@ module.exports = {
     'no-whitespace-before-property': 1,
     'no-with': 1,
 
-    'array-bracket-spacing': 0,
+    'array-bracket-spacing': [1, 'never'],
     'arrow-body-style': 0,
     'arrow-parens': 0,
     'arrow-spacing': [1, { before: true, after: true }],
@@ -160,7 +161,7 @@ module.exports = {
     'eqeqeq': [1, 'smart'],
     'func-names': 0,
     'func-style': [0, 'declaration'],
-    'generator-star-spacing': 0,
+    'generator-star-spacing': [1, 'after'],
     'global-require': 0,
     'guard-for-in': 0,
     'handle-callback-err': [1, '^(err|error)$'],
@@ -187,7 +188,7 @@ module.exports = {
     'newline-per-chained-call': [1, { ignoreChainWithDepth: 4 }],
     'object-curly-spacing': 0,
     'object-property-newline': [0, { allowMultiplePropertiesPerLine: true }],
-    'object-shorthand': 0,
+    'object-shorthand': 1,
     'one-var': [0, 'never'],
     'one-var-declaration-per-line': [0, 'always'],
     'operator-assignment': [0, 'always'],
@@ -227,15 +228,12 @@ module.exports = {
     'yield-star-spacing': [1, 'after'],
     'yoda': [1, 'never', { exceptRange: true }],
 
-    'babel/array-bracket-spacing': [1, 'never'],
-    'babel/arrow-parens': 0,
-    'babel/generator-star-spacing': [1, 'after'],
     'babel/new-cap': 0,
     'babel/no-await-in-loop': 0,
+    'babel/no-invalid-this': 1,
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
-    'babel/object-shorthand': 1,
-    'babel/flow-object-type': [1, 'comma'],
-    'babel/func-params-comma-dangle': [0, 'always-multiline'],
+
+    'flowtype/object-type-delimiter': [1, 'comma'],
 
     'import/order': [1, {
       groups: [['builtin', 'external'], 'internal', 'index', 'sibling', 'parent'],
