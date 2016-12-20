@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exponentjs/eslint-config-exponent.git"
+    "url": "git+https://github.com/exponent/eslint-config-exponent.git"
   },
   "keywords": [
     "eslint-config",
@@ -22,9 +22,9 @@
   "author": "James Ide",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exponentjs/eslint-config-exponent/issues"
+    "url": "https://github.com/exponent/eslint-config-exponent/issues"
   },
-  "homepage": "https://github.com/exponentjs/eslint-config-exponent#readme",
+  "homepage": "https://github.com/exponent/eslint-config-exponent#readme",
   "peerDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.10.2",
