@@ -47,6 +47,7 @@ module.exports = {
     'react/jsx-pascal-case': 0,
     'react/jsx-sort-props': 0,
     'react/jsx-space-before-closing': [1, 'always'],
+    'react/jsx-tag-spacing': 1,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
     'react/jsx-wrap-multilines': [1, {
@@ -56,6 +57,7 @@ module.exports = {
     }],
     'react/forbid-component-props': 0,
     'react/forbid-prop-types': 0,
+    'react/no-array-index-key': 0,
     'react/no-children-prop': 0,
     'react/no-danger': 0,
     'react/no-deprecated': 0,
@@ -74,6 +76,7 @@ module.exports = {
     'react/prefer-stateless-function': 0,
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 2,
+    'react/require-default-props': 0,
     'react/require-optimization': 0,
     'react/require-render-return': 1,
     'react/self-closing-comp': 1,

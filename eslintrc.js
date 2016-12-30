@@ -24,6 +24,7 @@ module.exports = {
   rules: {
     'no-alert': 1,
     'no-array-constructor': 1,
+    'no-await-in-loop': 0,
     'no-bitwise': 0,
     'no-caller': 1,
     'no-catch-shadow': 0,
@@ -147,6 +148,7 @@ module.exports = {
     'brace-style': [0, '1tbs'],
     'callback-return': 0,
     'camelcase': 0,
+    'capitalized-comments': [0, 'always', { ignoreInlineComments: true }],
     'comma-dangle': [1, 'always-multiline'],
     'comma-spacing': [1, { before: false, after: true }],
     'comma-style': [1, 'last'],
@@ -206,6 +208,7 @@ module.exports = {
     'quotes': [0, 'single', 'avoid-escape'],
     'radix': 1,
     'rest-spread-spacing': [1, 'never'],
+    'require-await': 0,
     'require-jsdoc': 0,
     'require-yield': 0,
     'semi': 1,
@@ -235,6 +238,7 @@ module.exports = {
     'babel/no-invalid-this': 0,
     'babel/object-curly-spacing': [0, 'always', { objectsInObjects: false }],
 
+    'flowtype/no-primitive-constructor-types': 1,
     'flowtype/object-type-delimiter': [1, 'comma'],
 
     'import/order': [1, {
