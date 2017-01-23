@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint-config-exponent',
+  extends: './eslintrc.js',
 
   parseOptions: {
     ecmaFeatures: {

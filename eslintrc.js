@@ -196,7 +196,7 @@ module.exports = {
     'one-var': [0, 'never'],
     'one-var-declaration-per-line': [0, 'always'],
     'operator-assignment': [0, 'always'],
-    'operator-linebreak': [1, 'after'],
+    'operator-linebreak': [1, 'after', { overrides: { '?': 'before', ':': 'before' } }],
     'padded-blocks': 0,
     'prefer-arrow-callback': 0,
     'prefer-const': 0,
