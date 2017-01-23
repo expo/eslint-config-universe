@@ -1,12 +1,6 @@
 module.exports = {
   extends: './eslintrc.js',
-
-  parseOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-
+  parseOptions: { ecmaFeatures: { jsx: true } },
   globals: {
     __DEV__: false,
     XMLHttpRequest: false,
@@ -17,18 +11,11 @@ module.exports = {
     requestIdleCallback: false,
     cancelIdleCallback: false,
   },
-
-  plugins: [
-    'react',
-  ],
-
+  plugins: ['react'],
   rules: {
     'react/display-name': [0, { ignoreTranspilerName: false }],
     'react/jsx-boolean-value': [1, 'never'],
-    'react/jsx-closing-bracket-location': [1, {
-      nonEmpty: 'after-props',
-      selfClosing: 'tag-aligned',
-    }],
+    'react/jsx-closing-bracket-location': [1, { nonEmpty: 'after-props', selfClosing: 'tag-aligned' }],
     'react/jsx-curly-spacing': [1, 'never'],
     'react/jsx-equals-spacing': [1, 'never'],
     'react/jsx-filename-extension': 0,
@@ -50,11 +37,7 @@ module.exports = {
     'react/jsx-tag-spacing': 1,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
-    'react/jsx-wrap-multilines': [1, {
-      declaration: false,
-      assignment: false,
-      return: true,
-    }],
+    'react/jsx-wrap-multilines': [1, { declaration: false, assignment: false, return: true }],
     'react/forbid-component-props': 0,
     'react/forbid-prop-types': 0,
     'react/no-array-index-key': 0,
