@@ -25,7 +25,6 @@ module.exports = {
     'no-dupe-class-members': 2,
     'no-dupe-keys': 2,
     'no-duplicate-case': 2,
-    'no-duplicate-imports': 2,
     'no-else-return': 0,
     'no-empty': 0,
     'no-empty-character-class': 1,
@@ -223,5 +222,6 @@ module.exports = {
       1,
       { groups: [['builtin', 'external'], 'internal', 'index', 'sibling', 'parent'], 'newlines-between': 'ignore' },
     ],
+    'import/no-duplicates': 2,
   },
 };
