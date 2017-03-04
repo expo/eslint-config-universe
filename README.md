@@ -1,10 +1,10 @@
-# eslint-config-exponent
-Shared ESLint configs for Exponent's JS.
+# eslint-config-expo
+Shared ESLint configs for Expo's JS.
 
 ## Installation
 
 ```sh
-yarn add --dev eslint-config-exponent
+yarn add --dev eslint-config-expo
 ```
 
 You will also need to install `eslint`, `babel-eslint`, `eslint-plugin-babel`, `eslint-plugin-import`, and `eslint-plugin-react` (if you want to lint React and JSX):
@@ -21,7 +21,7 @@ Import this config into your own ESLint configuration using the `extends` option
 ```json
 {
   "eslintConfig": {
-    "extends": "exponent"
+    "extends": "expo"
   }
 }
 ```
@@ -29,7 +29,7 @@ Import this config into your own ESLint configuration using the `extends` option
 ### .eslintrc.js
 ```js
 module.exports = {
-  extends: 'exponent',
+  extends: 'expo',
 };
 ```
 
@@ -40,8 +40,8 @@ There are two configs: one for JavaScript and one for React. The React configura
 ###
 ```js
 "eslintConfig": {
-  "extends": "exponent"
+  "extends": "expo"
   // or
-  "extends": "exponent/react"
+  "extends": "expo/react"
 }
 ```

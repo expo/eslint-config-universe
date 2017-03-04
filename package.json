@@ -1,18 +1,18 @@
 {
-  "name": "eslint-config-exponent",
+  "name": "eslint-config-expo",
   "version": "5.1.3",
-  "description": "Shared ESLint configs for Exponent",
+  "description": "Shared ESLint configs for Expo",
   "main": "eslintrc.js",
   "scripts": {
     "test": "eslint eslintrc.js react.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exponent/eslint-config-exponent.git"
+    "url": "git+https://github.com/expo/eslint-config-expo.git"
   },
   "keywords": [
     "eslint-config",
-    "exponent"
+    "expo"
   ],
   "files": [
     "README.md",
@@ -22,9 +22,9 @@
   "author": "James Ide",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exponent/eslint-config-exponent/issues"
+    "url": "https://github.com/expo/eslint-config-expo/issues"
   },
-  "homepage": "https://github.com/exponent/eslint-config-exponent#readme",
+  "homepage": "https://github.com/expo/eslint-config-expo#readme",
   "peerDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.12.2",
