@@ -1,6 +1,10 @@
 module.exports = {
   parser: 'babel-eslint',
-  parserOptions: { ecmaVersion: 2017, sourceType: 'module', ecmaFeatures: { impliedStrict: true } },
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+    ecmaFeatures: { impliedStrict: true },
+  },
   env: { es6: true, jest: true, node: true },
   plugins: ['babel', 'flowtype', 'import'],
   rules: {
@@ -115,7 +119,10 @@ module.exports = {
     'no-useless-rename': 1,
     'no-void': 1,
     'no-var': 0,
-    'no-warning-comments': [0, { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
+    'no-warning-comments': [
+      0,
+      { terms: ['todo', 'fixme', 'xxx'], location: 'start' },
+    ],
     'no-whitespace-before-property': 1,
     'no-with': 1,
     'array-bracket-spacing': [1, 'never'],
@@ -176,7 +183,11 @@ module.exports = {
     'one-var': [0, 'never'],
     'one-var-declaration-per-line': [0, 'always'],
     'operator-assignment': [0, 'always'],
-    'operator-linebreak': [1, 'after', { overrides: { '?': 'before', ':': 'before' } }],
+    'operator-linebreak': [
+      1,
+      'after',
+      { overrides: { '?': 'before', ':': 'before' } },
+    ],
     'padded-blocks': 0,
     'prefer-arrow-callback': 0,
     'prefer-const': 0,
@@ -220,7 +231,16 @@ module.exports = {
     'flowtype/object-type-delimiter': [1, 'comma'],
     'import/order': [
       1,
-      { groups: [['builtin', 'external'], 'internal', 'index', 'sibling', 'parent'], 'newlines-between': 'ignore' },
+      {
+        groups: [
+          ['builtin', 'external'],
+          'internal',
+          'index',
+          'sibling',
+          'parent',
+        ],
+        'newlines-between': 'ignore',
+      },
     ],
     'import/no-duplicates': 2,
   },
