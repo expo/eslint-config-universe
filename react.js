@@ -1,7 +1,7 @@
 module.exports = {
   extends: 'eslint-config-exponent',
 
-  parseOptions: {
+  parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
