@@ -1,6 +1,6 @@
 module.exports = {
   extends: './eslintrc.js',
-  parseOptions: { ecmaFeatures: { jsx: true } },
+  parserOptions: { ecmaFeatures: { jsx: true } },
   globals: {
     __DEV__: false,
     XMLHttpRequest: false,
