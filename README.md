@@ -45,3 +45,4 @@ There are two configs: one for JavaScript and one for React. The React configura
   "extends": "expo/react"
 }
 ```
+
