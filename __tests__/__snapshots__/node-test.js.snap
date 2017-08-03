@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures/all-00.js 1`] = `
+Object {
+  "errorCount": 0,
+  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/all-00.js",
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "messages": Array [],
+  "output": "import 'hi';
+
+import a from 'a';
+import { b } from 'b';
+import c, { c1 } from 'c';
+import * as d from 'd';
+
+import e from './e';
+
+@d
+export class Example {
+  static s = {
+    a,
+    b,
+  };
+
+  m = {};
+
+  hi() {
+    _fn();
+  }
+
+  async byeAsync() {
+    _fn(a, b, c, c1, d, e);
+  }
+}
+
+function _fn() {}
+",
+  "warningCount": 0,
+}
+`;
+
+exports[`message 1`] = `
+"No rules that are unnecessary or conflict with Prettier were found.
+"
+`;
+
+exports[`success 1`] = `true`;

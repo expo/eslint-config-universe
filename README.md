@@ -7,10 +7,10 @@ Shared ESLint configs for Expo's JS.
 yarn add --dev eslint-config-expo
 ```
 
-You will also need to install `eslint`, `babel-eslint`, `eslint-plugin-babel`, `eslint-plugin-import`, and `eslint-plugin-react` (if you want to lint React and JSX):
+You will also need to install `eslint` and `prettier`:
 
 ```sh
-yarn add --dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-react
+yarn add --dev eslint prettier
 ```
 
 ## Usage
@@ -33,16 +33,26 @@ module.exports = {
 };
 ```
 
-## React and JSX Support
+## Support for Different Platforms
 
-There are two configs: one for JavaScript and one for React. The React configuration extends the JavaScript one and adds support and linter rules for JSX.
+There are several configs for different platforms. They are:
+* `expo`: the basic config for JavaScript projects for which there isn't a more specific config
+* `expo/native`: the config for React Native projects, including Expo projects, with support for React and JSX
+* `expo/web`: the config for code that runs in web browsers, with support for React and JSX
+* `expo/node`: the config for code that runs in Node
 
-###
+For an Expo project, your configuration might look like this:
+
 ```js
 "eslintConfig": {
-  "extends": "expo"
-  // or
-  "extends": "expo/react"
+  "extends": "expo/native"
 }
 ```
 
+You also can extend multiple configs, which is useful for projects that span several platforms:
+
+```js
+"eslintConfig": {
+  "extends": ["expo/node", "expo/web"]
+}
+```

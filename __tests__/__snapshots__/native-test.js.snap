@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures/all-00.js 1`] = `
+Object {
+  "errorCount": 0,
+  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/all-00.js",
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "messages": Array [],
+  "output": "import 'hi';
+
+import a from 'a';
+import { b } from 'b';
+import c, { c1 } from 'c';
+import * as d from 'd';
+
+import e from './e';
+
+@d
+export class Example {
+  static s = {
+    a,
+    b,
+  };
+
+  m = {};
+
+  hi() {
+    _fn();
+  }
+
+  async byeAsync() {
+    _fn(a, b, c, c1, d, e);
+  }
+}
+
+function _fn() {}
+",
+  "warningCount": 0,
+}
+`;
+
+exports[`fixtures/web-native-00.js 1`] = `
+Object {
+  "errorCount": 0,
+  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-00.js",
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "messages": Array [],
+  "warningCount": 0,
+}
+`;
+
+exports[`fixtures/web-native-01.js 1`] = `
+Object {
+  "errorCount": 0,
+  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-01.js",
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "messages": Array [
+    Object {
+      "column": 3,
+      "endColumn": 22,
+      "endLine": 4,
+      "line": 4,
+      "message": "props should be placed after render",
+      "nodeType": "ClassProperty",
+      "ruleId": "react/sort-comp",
+      "severity": 1,
+      "source": "  props = { x: 'x' };",
+    },
+    Object {
+      "column": 5,
+      "endColumn": 19,
+      "endLine": 7,
+      "line": 7,
+      "message": "Unexpected alert.",
+      "nodeType": "CallExpression",
+      "ruleId": "no-alert",
+      "severity": 1,
+      "source": "    alert('uh oh');",
+    },
+    Object {
+      "column": 5,
+      "endColumn": 18,
+      "endLine": 8,
+      "line": 8,
+      "message": "Do not use setState in componentDidMount",
+      "nodeType": "MemberExpression",
+      "ruleId": "react/no-did-mount-set-state",
+      "severity": 1,
+      "source": "    this.setState({});",
+    },
+  ],
+  "output": "import React from 'react';
+
+export default class Example extends React.Component {
+  props = { x: 'x' };
+
+  componentDidMount() {
+    alert('uh oh');
+    this.setState({});
+  }
+
+  render() {
+    return (
+      <div>
+        {this.props.x}
+      </div>
+    );
+  }
+}
+",
+  "warningCount": 3,
+}
+`;
+
+exports[`fixtures/web-native-02.js 1`] = `
+Object {
+  "errorCount": 0,
+  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-02.js",
+  "fixableErrorCount": 0,
+  "fixableWarningCount": 0,
+  "messages": Array [
+    Object {
+      "column": 3,
+      "endColumn": 25,
+      "endLine": 10,
+      "line": 10,
+      "message": "componentDidMount should be placed before componentDidUpdate",
+      "nodeType": "MethodDefinition",
+      "ruleId": "react/sort-comp",
+      "severity": 1,
+      "source": "  componentDidMount() {}",
+    },
+  ],
+  "source": "import React from 'react';
+
+export default class Example extends React.Component {
+  componentDidUpdate() {}
+
+  render() {
+    return null;
+  }
+
+  componentDidMount() {}
+
+  static getInitialProps() {}
+}
+",
+  "warningCount": 1,
+}
+`;
+
+exports[`message 1`] = `
+"No rules that are unnecessary or conflict with Prettier were found.
+"
+`;
+
+exports[`success 1`] = `true`;
