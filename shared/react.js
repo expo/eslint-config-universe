@@ -32,12 +32,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-render-return': 'warn',
     'react/self-closing-comp': 'warn',
-    'react/sort-comp': [
-      'warn',
-      {
-        order: ['static-methods', 'constructor', 'lifecycle', 'render', 'everything-else'],
-      },
-    ],
     'react/style-prop-object': 'warn',
   },
 };

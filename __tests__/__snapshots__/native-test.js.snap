@@ -59,17 +59,6 @@ Object {
   "fixableWarningCount": 0,
   "messages": Array [
     Object {
-      "column": 3,
-      "endColumn": 22,
-      "endLine": 4,
-      "line": 4,
-      "message": "props should be placed after render",
-      "nodeType": "ClassProperty",
-      "ruleId": "react/sort-comp",
-      "severity": 1,
-      "source": "  props = { x: 'x' };",
-    },
-    Object {
       "column": 5,
       "endColumn": 19,
       "endLine": 7,
@@ -111,7 +100,7 @@ export default class Example extends React.Component {
   }
 }
 ",
-  "warningCount": 3,
+  "warningCount": 2,
 }
 `;
 
@@ -121,34 +110,8 @@ Object {
   "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-02.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
-  "messages": Array [
-    Object {
-      "column": 3,
-      "endColumn": 25,
-      "endLine": 10,
-      "line": 10,
-      "message": "componentDidMount should be placed before componentDidUpdate",
-      "nodeType": "MethodDefinition",
-      "ruleId": "react/sort-comp",
-      "severity": 1,
-      "source": "  componentDidMount() {}",
-    },
-  ],
-  "source": "import React from 'react';
-
-export default class Example extends React.Component {
-  componentDidUpdate() {}
-
-  render() {
-    return null;
-  }
-
-  componentDidMount() {}
-
-  static getInitialProps() {}
-}
-",
-  "warningCount": 1,
+  "messages": Array [],
+  "warningCount": 0,
 }
 `;
 
