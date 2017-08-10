@@ -153,7 +153,7 @@ module.exports = {
     'import/order': [
       'warn',
       {
-        groups: [['builtin', 'external'], 'internal', 'parent', 'index', 'sibling'],
+        groups: [['builtin', 'external'], 'internal', ['parent', 'index', 'sibling']],
         'newlines-between': 'ignore',
       },
     ],

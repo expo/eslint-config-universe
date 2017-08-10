@@ -33,6 +33,20 @@ module.exports = {
 };
 ```
 
+## Customizing Prettier
+
+If you would like to customize the Prettier settings, create a file named `.prettierrc` in your project directory. This file must declare a Prettier configuration like this:
+
+```js
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "jsxBracketSameLine": true,
+  "trailingComma": "es5"
+}
+```
+
 ## Support for Different Platforms
 
 There are several configs for different platforms. They are:
