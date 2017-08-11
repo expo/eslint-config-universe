@@ -15,7 +15,7 @@ module.exports = function readPrettierConfig() {
   let currentDirectory = process.cwd();
 
   do {
-    let configPath = path.join(currentDirectory, '.prettierrc.js');
+    let configPath = path.join(currentDirectory, '.prettierrc');
     let configString = _readFileSafe(configPath);
     if (configString) {
       return JSON.parse(configString);

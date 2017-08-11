@@ -13,5 +13,6 @@ module.exports = {
     navigator: false,
     requestAnimationFrame: false,
     requestIdleCallback: false,
+    window: false,
   },
 };
