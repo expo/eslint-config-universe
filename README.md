@@ -1,4 +1,4 @@
-# eslint-config-expo
+# eslint-config-universe
 Shared ESLint configs for Node, Web, React Native, and Expo projects.
 
 ## Installation
