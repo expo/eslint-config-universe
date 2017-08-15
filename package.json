@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-expo",
-  "version": "6.0.0-rc.5",
-  "description": "Shared ESLint configs for Expo",
+  "version": "6.0.0",
+  "description": "Shared ESLint configs for Node, Web, React Native, and Expo projects",
   "main": "default.js",
   "scripts": {
     "test": "jest"
@@ -16,7 +16,7 @@
   ],
   "files": [
     "README.md",
-    "eslintrc.js",
+    "default.js",
     "native.js",
     "node.js",
     "web.js",

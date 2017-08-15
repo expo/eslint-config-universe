@@ -1,5 +1,5 @@
 # eslint-config-expo
-Shared ESLint configs for Expo's JS.
+Shared ESLint configs for Node, Web, React Native, and Expo projects.
 
 ## Installation
 

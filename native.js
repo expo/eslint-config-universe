@@ -3,6 +3,7 @@ module.exports = {
   globals: {
     __DEV__: false,
     Atomics: false,
+    ErrorUtils: false,
     FormData: false,
     SharedArrayBuffer: false,
     XMLHttpRequest: false,
