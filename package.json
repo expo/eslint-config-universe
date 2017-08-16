@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-universe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared ESLint configs for Node, Web, React Native, and Expo projects",
   "main": "default.js",
   "scripts": {

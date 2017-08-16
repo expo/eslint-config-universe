@@ -147,8 +147,10 @@ module.exports = {
     'flowtype/union-intersection-spacing': ['warn', 'always'],
     'flowtype/use-flow-type': 'warn',
 
+    'import/default': 'off',
     'import/export': 'error',
     'import/first': 'warn',
+    'import/namespace': ['error', { allowComputed: true }],
     'import/no-duplicates': 'error',
     'import/order': [
       'warn',
