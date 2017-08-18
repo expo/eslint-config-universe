@@ -71,3 +71,9 @@ You also can extend multiple configs, which is useful for projects that span sev
   "extends": ["universe/node", "universe/web"]
 }
 ```
+
+## Philosophy
+
+This config is designed to mark severe problems (ex: syntax errors) as errors and stylistic issues as warnings. This lets your team apply policies like, "make sure a commit has no errors but ignore warnings if the commit didn't introduce them."
+
+It's also designed to be a more lenient config for teams who are stronger at decision-making and have a culture of osmotically learning coding guidelines and benefit more from flexibility than rigid rules.
