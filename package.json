@@ -1,18 +1,20 @@
 {
-  "name": "eslint-config-expo",
-  "version": "6.0.0",
+  "name": "eslint-config-universe",
+  "version": "1.0.0",
   "description": "Shared ESLint configs for Node, Web, React Native, and Expo projects",
   "main": "default.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/expo/eslint-config-expo.git"
+    "url": "git+https://github.com/expo/eslint-config-universe.git"
   },
   "keywords": [
     "eslint-config",
-    "expo"
+    "expo",
+    "react-native"
   ],
   "files": [
     "README.md",
@@ -30,9 +32,9 @@
   "author": "Expo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/expo/eslint-config-expo/issues"
+    "url": "https://github.com/expo/eslint-config-universe/issues"
   },
-  "homepage": "https://github.com/expo/eslint-config-expo#readme",
+  "homepage": "https://github.com/expo/eslint-config-universe#readme",
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-config-prettier": "^2.3.0",
