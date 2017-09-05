@@ -95,7 +95,7 @@ module.exports = {
     'no-unneeded-ternary': 'warn',
     'no-unreachable': 'warn',
     'no-unsafe-negation': 'warn',
-    'no-unused-expressions': 'warn',
+    'no-unused-expressions': ['warn', { allowShortCircuit: true }],
     'no-unused-labels': 'warn',
     'no-unused-vars': ['warn', { vars: 'all', args: 'none' }],
     'no-useless-computed-key': 'warn',

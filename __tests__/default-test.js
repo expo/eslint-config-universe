@@ -21,6 +21,7 @@ it(`lints with the default config`, async () => {
     {
       configFile,
       fix: true,
+      ignore: false,
       useEslintrc: false,
     },
     ['__tests__/fixtures/*all*.js']

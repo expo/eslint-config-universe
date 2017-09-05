@@ -21,6 +21,7 @@ it(`lints with the React Native config`, async () => {
     {
       configFile,
       fix: true,
+      ignore: false,
       useEslintrc: false,
     },
     ['__tests__/fixtures/*all*.js', '__tests__/fixtures/*native*.js']
