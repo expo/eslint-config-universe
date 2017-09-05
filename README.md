@@ -4,7 +4,7 @@ Shared ESLint configs for Node, Web, React Native, and Expo projects.
 ## Installation
 
 ```sh
-yarn add --dev eslint-config-expo
+yarn add --dev eslint-config-universe
 ```
 
 You will also need to install `eslint` and `prettier`:
@@ -21,7 +21,8 @@ Import this config into your own ESLint configuration using the `extends` option
 ```json
 {
   "eslintConfig": {
-    "extends": "expo"
+    // Choose from universe/native, universe/node, universe/web
+    "extends": "universe"
   }
 }
 ```
@@ -29,7 +30,7 @@ Import this config into your own ESLint configuration using the `extends` option
 ### .eslintrc.js
 ```js
 module.exports = {
-  extends: 'expo',
+  extends: 'universe',
 };
 ```
 
@@ -50,16 +51,16 @@ If you would like to customize the Prettier settings, create a file named `.pret
 ## Support for Different Platforms
 
 There are several configs for different platforms. They are:
-* `expo`: the basic config for JavaScript projects for which there isn't a more specific config
-* `expo/native`: the config for React Native projects, including Expo projects, with support for React and JSX
-* `expo/web`: the config for code that runs in web browsers, with support for React and JSX
-* `expo/node`: the config for code that runs in Node
+* `universe`: the basic config for JavaScript projects for which there isn't a more specific config
+* `universe/native`: the config for React Native projects, including Expo projects, with support for React and JSX
+* `universe/web`: the config for code that runs in web browsers, with support for React and JSX
+* `universe/node`: the config for code that runs in Node
 
 For an Expo project, your configuration might look like this:
 
 ```js
 "eslintConfig": {
-  "extends": "expo/native"
+  "extends": "universe/native"
 }
 ```
 
@@ -67,6 +68,6 @@ You also can extend multiple configs, which is useful for projects that span sev
 
 ```js
 "eslintConfig": {
-  "extends": ["expo/node", "expo/web"]
+  "extends": ["universe/node", "universe/web"]
 }
 ```
