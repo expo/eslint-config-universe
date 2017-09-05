@@ -1,4 +1,4 @@
-# eslint-config-universe
+# eslint-config-universe [![CircleCI](https://circleci.com/gh/expo/eslint-config-universe.svg?style=svg)](https://circleci.com/gh/expo/eslint-config-universe)
 Shared ESLint configs for Node, Web, React Native, and Expo projects.
 
 ## Installation
@@ -18,7 +18,7 @@ yarn add --dev eslint prettier
 Import this config into your own ESLint configuration using the `extends` option. ESLint checks both package.json and .eslintrc.* files for its configuration:
 
 ### package.json
-```json
+```js
 {
   "eslintConfig": {
     // Choose from universe/native, universe/node, universe/web

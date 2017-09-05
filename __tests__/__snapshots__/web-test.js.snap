@@ -3,7 +3,6 @@
 exports[`fixtures/all-00.js 1`] = `
 Object {
   "errorCount": 0,
-  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/all-00.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [],
@@ -43,7 +42,6 @@ function _fn() {}
 exports[`fixtures/web-native-00.js 1`] = `
 Object {
   "errorCount": 1,
-  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-00.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [
@@ -59,7 +57,7 @@ Object {
       "source": "    new SharedArrayBuffer(16).slice();",
     },
   ],
-  "source": "// @flow
+  "output": "// @flow
 import React from 'react';
 import { connect } from 'react-redux';
 
@@ -94,11 +92,7 @@ export default class Example extends React.Component {
   shouldComponentUpdate() {}
 
   render() {
-    return (
-      <div>
-        {this.state.x}
-      </div>
-    );
+    return <div>{this.state.x}</div>;
   }
 
   _handleWhatever() {}
@@ -111,7 +105,6 @@ export default class Example extends React.Component {
 exports[`fixtures/web-native-01.js 1`] = `
 Object {
   "errorCount": 0,
-  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-01.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [
@@ -149,11 +142,7 @@ export default class Example extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.props.x}
-      </div>
-    );
+    return <div>{this.props.x}</div>;
   }
 }
 ",
@@ -164,7 +153,6 @@ export default class Example extends React.Component {
 exports[`fixtures/web-native-02.js 1`] = `
 Object {
   "errorCount": 0,
-  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/web-native-02.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [],
