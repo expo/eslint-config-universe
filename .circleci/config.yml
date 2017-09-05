@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/eslint-config-universe
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - restore_cache:
+          key: yarn-cache
+      - run:
+          name: Install npm packages
+          command: yarn --pure-lockfile
+      - save_cache:
+          key: yarn-cache
+          paths:
+            - ~/.cache/yarn
+      - run:
+          name: Lint
+          command: yarn lint
+      - run:
+          name: Run Tests
+          command: yarn test

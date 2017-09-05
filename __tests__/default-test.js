@@ -29,6 +29,7 @@ it(`lints with the default config`, async () => {
   let { results } = report;
   for (let result of results) {
     let relativeFilePath = path.relative(__dirname, result.filePath);
+    delete result.filePath;
     expect(result).toMatchSnapshot(relativeFilePath);
   }
 });
