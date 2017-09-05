@@ -28,7 +28,6 @@ it(`lints with the React Native config`, async () => {
   );
   let { results } = report;
   for (let result of results) {
-    expect(typeof result.filePath).toBe('string');
     let relativeFilePath = path.relative(__dirname, result.filePath);
     delete result.filePath;
     expect(result).toMatchSnapshot(relativeFilePath);

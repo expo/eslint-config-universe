@@ -57,7 +57,7 @@ Object {
       "source": "    new SharedArrayBuffer(16).slice();",
     },
   ],
-  "source": "// @flow
+  "output": "// @flow
 import React from 'react';
 import { connect } from 'react-redux';
 
@@ -92,11 +92,7 @@ export default class Example extends React.Component {
   shouldComponentUpdate() {}
 
   render() {
-    return (
-      <div>
-        {this.state.x}
-      </div>
-    );
+    return <div>{this.state.x}</div>;
   }
 
   _handleWhatever() {}
@@ -146,11 +142,7 @@ export default class Example extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.props.x}
-      </div>
-    );
+    return <div>{this.props.x}</div>;
   }
 }
 ",

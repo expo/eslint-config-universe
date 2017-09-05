@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/expo/eslint-config-universe.git"
   },
-  "keywords": ["eslint-config", "expo", "react-native"],
+  "keywords": [
+    "eslint-config",
+    "expo",
+    "react-native"
+  ],
   "files": [
     "README.md",
     "default.js",
@@ -21,8 +25,13 @@
     "shared"
   ],
   "jest": {
-    "testMatch": ["**/__tests__/*-test.js"]
+    "testMatch": [
+      "**/__tests__/*-test.js"
+    ]
   },
+  "eslintIgnore": [
+    "/__tests__/fixtures/*"
+  ],
   "author": "Expo",
   "license": "MIT",
   "bugs": {
