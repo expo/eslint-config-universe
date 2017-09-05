@@ -4,7 +4,7 @@ Shared ESLint configs for Node, Web, React Native, and Expo projects.
 ## Installation
 
 ```sh
-yarn add --dev eslint-config-expo
+yarn add --dev eslint-config-universe
 ```
 
 You will also need to install `eslint` and `prettier`:
