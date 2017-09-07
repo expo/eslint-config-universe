@@ -3,7 +3,6 @@
 exports[`fixtures/all-00.js 1`] = `
 Object {
   "errorCount": 0,
-  "filePath": "/Users/ide/universe/libraries/eslint-config-expo/__tests__/fixtures/all-00.js",
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [],
