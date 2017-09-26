@@ -32,7 +32,7 @@ module.exports = {
     'handle-callback-err': ['warn', '^(e|err|error|.+Error)$'],
     'jsx-quotes': ['warn', 'prefer-double'],
     'new-parens': 'warn',
-    'no-alert': 'warn',
+    'no-alert': 'off',
     'no-array-constructor': 'warn',
     'no-caller': 'warn',
     'no-case-declarations': 'warn',
