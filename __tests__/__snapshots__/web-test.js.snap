@@ -110,17 +110,6 @@ Object {
   "messages": Array [
     Object {
       "column": 5,
-      "endColumn": 19,
-      "endLine": 7,
-      "line": 7,
-      "message": "Unexpected alert.",
-      "nodeType": "CallExpression",
-      "ruleId": "no-alert",
-      "severity": 1,
-      "source": "    alert('uh oh');",
-    },
-    Object {
-      "column": 5,
       "endColumn": 18,
       "endLine": 8,
       "line": 8,
@@ -146,7 +135,7 @@ export default class Example extends React.Component {
   }
 }
 ",
-  "warningCount": 2,
+  "warningCount": 1,
 }
 `;
 
