@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-universe",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shared ESLint configs for Node, Web, React Native, and Expo projects",
   "main": "default.js",
   "scripts": {
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/expo/eslint-config-universe#readme",
   "dependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-flowtype": "^2.35.0",
@@ -50,7 +50,7 @@
   "devDependencies": {
     "@expo/spawn-async": "^1.3.0",
     "eslint": "^4.4.1",
-    "jest": "^21.0.0",
+    "jest": "^22.3.0",
     "prettier": "^1.7.4"
   },
   "peerDependencies": {

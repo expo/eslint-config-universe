@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`fixtures/all-00.js 1`] = `
+exports[`doesn't conflict with Prettier: message 1`] = `
+"No rules that are unnecessary or conflict with Prettier were found.
+"
+`;
+
+exports[`doesn't conflict with Prettier: success 1`] = `true`;
+
+exports[`lints with the React Native config: fixtures/all-00.js 1`] = `
 Object {
   "errorCount": 0,
   "fixableErrorCount": 0,
@@ -39,7 +46,7 @@ function _fn() {}
 }
 `;
 
-exports[`fixtures/web-native-00.js 1`] = `
+exports[`lints with the React Native config: fixtures/web-native-00.js 1`] = `
 Object {
   "errorCount": 0,
   "fixableErrorCount": 0,
@@ -90,7 +97,7 @@ export default class Example extends React.Component {
 }
 `;
 
-exports[`fixtures/web-native-01.js 1`] = `
+exports[`lints with the React Native config: fixtures/web-native-01.js 1`] = `
 Object {
   "errorCount": 0,
   "fixableErrorCount": 0,
@@ -127,7 +134,7 @@ export default class Example extends React.Component {
 }
 `;
 
-exports[`fixtures/web-native-02.js 1`] = `
+exports[`lints with the React Native config: fixtures/web-native-02.js 1`] = `
 Object {
   "errorCount": 0,
   "fixableErrorCount": 0,
@@ -136,10 +143,3 @@ Object {
   "warningCount": 0,
 }
 `;
-
-exports[`message 1`] = `
-"No rules that are unnecessary or conflict with Prettier were found.
-"
-`;
-
-exports[`success 1`] = `true`;
