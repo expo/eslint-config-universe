@@ -130,8 +130,6 @@ module.exports = {
     'yield-star-spacing': ['warn', 'after'],
     yoda: ['warn', 'never', { exceptRange: true }],
 
-    'babel/object-curly-spacing': ['warn', 'always', { objectsInObjects: true }],
-
     'flowtype/boolean-style': ['warn', 'boolean'],
     'flowtype/define-flow-type': 'warn',
     'flowtype/delimiter-dangle': ['warn', 'always-multiline'],
