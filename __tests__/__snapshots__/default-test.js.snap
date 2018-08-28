@@ -9,11 +9,28 @@ exports[`doesn't conflict with Prettier: success 1`] = `true`;
 
 exports[`lints with the default config: fixtures/all-00.js 1`] = `
 Object {
-  "errorCount": 0,
+  "errorCount": 1,
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
-  "messages": Array [],
-  "output": "import 'hi';
+  "messages": Array [
+    Object {
+      "column": 1,
+      "fatal": true,
+      "line": 11,
+      "message": "Parsing error: Using the export keyword between a decorator and a class is not allowed. Please use \`export @dec class\` instead.
+
+   9 | 
+  10 | @d
+> 11 | export class Example {
+     | ^
+  12 |   static s = {
+  13 |     a, b
+  14 |   };",
+      "ruleId": null,
+      "severity": 2,
+    },
+  ],
+  "source": "import 'hi';
 
 import a from 'a';
 import { b } from 'b';
@@ -25,8 +42,7 @@ import e from './e';
 @d
 export class Example {
   static s = {
-    a,
-    b,
+    a, b
   };
 
   m = {};

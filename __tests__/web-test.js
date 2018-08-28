@@ -2,6 +2,7 @@ const eslint = require('eslint');
 const path = require('path');
 
 const checkPrettierRulesAsync = require('./tools/checkPrettierRulesAsync');
+const getBaseConfig = require('./tools/getBaseConfig');
 const lintAsync = require('./tools/lintAsync');
 
 const configFile = path.resolve(__dirname, '../web.js');
@@ -10,6 +11,7 @@ it(`has a web config`, () => {
   expect(
     () =>
       new eslint.CLIEngine({
+        baseConfig: getBaseConfig(),
         configFile,
         useEslintrc: false,
       })
@@ -19,6 +21,7 @@ it(`has a web config`, () => {
 it(`lints with the web config`, async () => {
   let report = await lintAsync(
     {
+      baseConfig: getBaseConfig(),
       configFile,
       fix: true,
       ignore: false,
