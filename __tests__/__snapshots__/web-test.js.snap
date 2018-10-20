@@ -1,11 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`doesn't conflict with Prettier: message 1`] = `
-"No rules that are unnecessary or conflict with Prettier were found.
+"The following rules are unnecessary or might conflict with Prettier:
+
+- array-bracket-spacing
+- arrow-spacing
+- block-spacing
+- comma-dangle
+- comma-spacing
+- comma-style
+- computed-property-spacing
+- dot-location
+- eol-last
+- flowtype/boolean-style
+- flowtype/delimiter-dangle
+- flowtype/generic-spacing
+- flowtype/object-type-delimiter
+- flowtype/semi
+- flowtype/space-after-type-colon
+- flowtype/space-before-generic-bracket
+- flowtype/space-before-type-colon
+- flowtype/union-intersection-spacing
+- func-call-spacing
+- generator-star-spacing
+- jsx-quotes
+- new-parens
+- no-extra-semi
+- no-floating-decimal
+- no-mixed-spaces-and-tabs
+- no-trailing-spaces
+- no-whitespace-before-property
+- operator-linebreak
+- react/jsx-closing-bracket-location
+- react/jsx-equals-spacing
+- react/jsx-first-prop-new-line
+- react/jsx-indent
+- react/jsx-indent-props
+- react/jsx-tag-spacing
+- react/jsx-wrap-multilines
+- rest-spread-spacing
+- semi
+- semi-spacing
+- semi-style
+- space-before-blocks
+- space-before-function-paren
+- space-in-parens
+- space-infix-ops
+- switch-colon-spacing
+- template-curly-spacing
+- template-tag-spacing
+- unicode-bom
+- yield-star-spacing
+
+The following rules are enabled but cannot be automatically checked. See:
+https://github.com/prettier/eslint-config-prettier#special-rules
+
+- no-unexpected-multiline
 "
 `;
 
-exports[`doesn't conflict with Prettier: success 1`] = `true`;
+exports[`doesn't conflict with Prettier: success 1`] = `false`;
 
 exports[`lints with the web config: fixtures/all-00.js 1`] = `
 Object {
@@ -154,7 +208,7 @@ Object {
   "output": "import React from 'react';
 
 export default class Example extends React.Component {
-  props = { x: 'x' };
+  props = { x: 'x' }
 
   componentDidMount() {
     alert('uh oh');
@@ -162,7 +216,7 @@ export default class Example extends React.Component {
   }
 
   render() {
-    return <div>{this.props.x}</div>;
+    return <div >{this.props.x}</div>;
   }
 }
 ",
