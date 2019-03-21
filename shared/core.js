@@ -39,7 +39,7 @@ module.exports = {
     'no-compare-neg-zero': 'warn',
     'no-cond-assign': 'warn',
     'no-const-assign': 'error',
-    'no-constant-condition': 'warn',
+    'no-constant-condition': ['warn', { checkLoops: false }],
     'no-control-regex': 'warn',
     'no-debugger': 'warn',
     'no-delete-var': 'error',
