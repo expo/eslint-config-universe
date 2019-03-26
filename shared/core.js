@@ -40,6 +40,7 @@ module.exports = {
     'no-cond-assign': 'warn',
     'no-const-assign': 'error',
     'no-constant-condition': 'warn',
+    'no-control-regex': 'off',
     'no-debugger': 'warn',
     'no-delete-var': 'error',
     'no-dupe-args': 'error',
