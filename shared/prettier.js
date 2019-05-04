@@ -1,4 +1,4 @@
-const readPrettierConfig = require('./readPrettierConfig');
+const prettier = require('prettier');
 
 const defaultPrettierConfig = {
   printWidth: 100,
@@ -12,6 +12,9 @@ module.exports = {
   extends: ['prettier', 'prettier/flowtype', 'prettier/react'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['warn', readPrettierConfig() || defaultPrettierConfig],
+    'prettier/prettier': [
+      'warn',
+      prettier.resolveConfig.sync(process.cwd()) || defaultPrettierConfig,
+    ],
   },
 };
