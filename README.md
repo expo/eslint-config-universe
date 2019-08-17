@@ -36,9 +36,9 @@ module.exports = {
 
 ## Customizing Prettier
 
-If you would like to customize the Prettier settings, create a file named `.prettierrc` in your project directory. This file must declare a Prettier configuration like this:
+If you would like to customize the Prettier settings, create a file named `.prettierrc` in your project directory. An example of Prettier configuration file:
 
-```js
+```json
 {
   "printWidth": 100,
   "tabWidth": 2,
@@ -47,6 +47,8 @@ If you would like to customize the Prettier settings, create a file named `.pret
   "trailingComma": "es5"
 }
 ```
+
+Read more about [configuring `prettier`](https://prettier.io/docs/en/configuration.html) and [all of the available options](https://prettier.io/docs/en/options.html).
 
 ## Support for Different Platforms
 
